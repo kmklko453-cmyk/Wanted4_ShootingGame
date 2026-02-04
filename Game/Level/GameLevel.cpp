@@ -1,0 +1,12 @@
+#include "Gamelevel.h"
+#include "Actor/Player.h"
+
+GameLevel::GameLevel()
+{
+	// Player 액터 추가
+	AddNewActor(new Player());
+}
+
+GameLevel::~GameLevel()
+{
+}
