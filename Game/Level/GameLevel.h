@@ -16,6 +16,12 @@ public:
 
 private:
 
+	virtual void Tick(float deltaTime) override;
+	//충돌 판정 처리 함수
+	void ProcessCollisionPlayerBulletAndEnemy();
+	void ProcessCollisionPlayerAndEnemyBullet();
+private:
+
 };
 
 

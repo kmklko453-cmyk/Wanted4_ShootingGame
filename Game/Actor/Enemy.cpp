@@ -73,7 +73,7 @@ void Enemy::Tick(float deltaTime)
 	GetOwner()->AddNewActor(new EnemyBullet(Vector2(position.x + width / 2, position.y), Util::RandomRange(10.0f, 20.0f)));
 }
 
-void Enemy::OnDamadged()
+void Enemy::OnDamaged()
 {
 	//액터 제거
 	Destroy();

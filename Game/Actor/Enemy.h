@@ -22,7 +22,7 @@ public:
 
 	virtual void Tick(float deltaTime) override;
 
-	void OnDamadged();
+	void OnDamaged();
 
 private:
 	//이동 방향 열거형
